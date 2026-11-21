@@ -1,0 +1,21 @@
+# Explicit publication candidate allowlist: thesis and related documents stay local.
+/*
+!/.gitignore
+!/README.md
+!/example.py
+!/work/
+/work/*
+!/work/case_study_v5/
+/work/case_study_v5/*
+!/work/case_study_v5/runtime.py
+!/work/case_study_v5/main_adapter_v1.py
+!/work/case_study_v5/run_main_v1.py
+!/outputs/
+/outputs/*
+!/outputs/case_study_v5/
+/outputs/case_study_v5/*
+!/outputs/case_study_v5/tasks.json
+!/outputs/case_study_v5/packets.json
+!/outputs/case_study_v5/design.json
+!/outputs/case_study_v5/execution_settings_v2.json
+!/outputs/case_study_v5/scoring_ledger_template.json

@@ -1,0 +1,1678 @@
+[
+  {
+    "case_id": "S01-a",
+    "primary_family": "S01",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S01-a-U01",
+        "criterion": "동시 조건을 충족한 날짜 집합",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S01-b",
+    "primary_family": "S01",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S01-b-U01",
+        "criterion": "정확한 선정 날짜 집합",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S01-b-U02",
+        "criterion": "전체 선정 날짜 수·누적 강수량",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S01-b-U03",
+        "criterion": "선정 집합 내 기온 상위 2일의 날짜·기온·순서",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S01-b-U04",
+        "criterion": "상위 2일 평균과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S01-c",
+    "primary_family": "S01",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S01-c-U01",
+        "criterion": "강수 조건을 충족한 날짜 집합",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S01-d",
+    "primary_family": "S01",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S01-d-U01",
+        "criterion": "정확한 선정 날짜 집합",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S01-d-U02",
+        "criterion": "선정일 평균 기온·누적 강수량",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S01-d-U03",
+        "criterion": "최다 강수일과 같은 날의 기온",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S02-a",
+    "primary_family": "S02",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S02-a-U01",
+        "criterion": "동률 중 가장 이른 한 날짜와 기온",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S02-b",
+    "primary_family": "S02",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S02-b-U01",
+        "criterion": "모든 동률 날짜와 최고 기온",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S02-c",
+    "primary_family": "S02",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S02-c-U01",
+        "criterion": "30℃ 이상 날짜 집합·개수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S02-c-U02",
+        "criterion": "선정일 TAVG 평균과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S02-d",
+    "primary_family": "S02",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S02-d-U01",
+        "criterion": "조건 충족 날짜 없음·0일",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S02-d-U02",
+        "criterion": "평균 산출 불가임을 자료 부재와 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S03-a",
+    "primary_family": "S03",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S03-a-U01",
+        "criterion": "비 온 날·안 온 날의 날짜 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-a-U02",
+        "criterion": "두 집단 평균 기온과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-a-U03",
+        "criterion": "방향이 맞는 차이·수치상 높은 집단",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-a-U04",
+        "criterion": "관측된 표본 범위 안에서 요약",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S03-b",
+    "primary_family": "S03",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S03-b-U01",
+        "criterion": "비 온 날·안 온 날의 날짜 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-b-U02",
+        "criterion": "두 집단 평균 기온과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-b-U03",
+        "criterion": "방향이 맞는 차이·수치상 높은 집단",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-b-U04",
+        "criterion": "관측된 표본 범위 안에서 요약",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-b-U05",
+        "criterion": "지정한 허용 차이 규칙을 적용하고 통계적 유의성으로 바꾸지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S03-c",
+    "primary_family": "S03",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S03-c-U01",
+        "criterion": "집단별 날짜 수·평균",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-c-U02",
+        "criterion": "날짜 수 가중 전체 평균",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-c-U03",
+        "criterion": "두 집단 평균의 단순 평균",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-c-U04",
+        "criterion": "두 평균의 차이를 집단 크기 차이로 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S03-d",
+    "primary_family": "S03",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S03-d-U01",
+        "criterion": "비 온 날·안 온 날의 날짜 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-d-U02",
+        "criterion": "두 집단 평균 기온과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-d-U03",
+        "criterion": "방향이 맞는 차이·수치상 높은 집단",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-d-U04",
+        "criterion": "관측된 표본 범위 안에서 요약",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S03-d-U05",
+        "criterion": "지정한 허용 차이 규칙을 적용하고 통계적 유의성으로 바꾸지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S04-a",
+    "primary_family": "S04",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S04-a-U01",
+        "criterion": "전체 기간 평균 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S04-a-U02",
+        "criterion": "8월 20일 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S04-b",
+    "primary_family": "S04",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S04-b-U01",
+        "criterion": "메타데이터의 0.1단위를 해석",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S04-b-U02",
+        "criterion": "전체 평균과 해당일 기온을 ℃로 제시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S04-d",
+    "primary_family": "S04",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S04-d-U01",
+        "criterion": "TMAX가 제공되지 않음을 식별",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S04-d-U02",
+        "criterion": "정확한 전체 날짜·일수·TMAX 평균을 확정하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S05-a",
+    "primary_family": "S05",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S05-a-U01",
+        "criterion": "요청 기간과 관측 가능한 날짜 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S05-a-U02",
+        "criterion": "관측분 누적 강수량과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S05-a-U03",
+        "criterion": "전체 기간 합계 확정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S05-b",
+    "primary_family": "S05",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S05-b-U01",
+        "criterion": "요청 기간과 관측 가능한 날짜 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S05-b-U02",
+        "criterion": "관측분 누적 강수량과 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S05-b-U03",
+        "criterion": "전체 합계 불확정·누락 날짜 명시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S05-c",
+    "primary_family": "S05",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S05-c-U01",
+        "criterion": "최다 일강수일과 일강수량·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S05-d",
+    "primary_family": "S05",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S05-d-U01",
+        "criterion": "일 자료만 제공됨을 식별",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S05-d-U02",
+        "criterion": "시간별 최대 강도·시각을 확정하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S06-a",
+    "primary_family": "S06",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S06-a-U01",
+        "criterion": "요청한 네 날짜 모두 표시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-a-U02",
+        "criterion": "각 값 또는 null의 정확한 보존·mm 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-a-U03",
+        "criterion": "0과 미제공 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S06-b",
+    "primary_family": "S06",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S06-b-U01",
+        "criterion": "요청한 네 날짜 모두 표시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-b-U02",
+        "criterion": "각 값 또는 null의 정확한 보존·mm 단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-b-U03",
+        "criterion": "0과 미제공 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S06-c",
+    "primary_family": "S06",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S06-c-U01",
+        "criterion": "정확한 관측일 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-c-U02",
+        "criterion": "정확한 관측분 합계와 범위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-c-U03",
+        "criterion": "전체 4일 합계 확정 여부·제약 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S06-d",
+    "primary_family": "S06",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S06-d-U01",
+        "criterion": "정확한 관측일 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-d-U02",
+        "criterion": "정확한 관측분 합계와 범위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S06-d-U03",
+        "criterion": "전체 4일 합계 확정 여부·제약 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S07-a",
+    "primary_family": "S07",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S07-a-U01",
+        "criterion": "질문 날짜의 TAVG·PRCP 값·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-a-U02",
+        "criterion": "변수와 임계값에 맞는 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-a-U03",
+        "criterion": "사용자 전제를 자료로 확인하고 필요하면 교정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S07-b",
+    "primary_family": "S07",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S07-b-U01",
+        "criterion": "질문 날짜의 TAVG·PRCP 값·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-b-U02",
+        "criterion": "변수와 임계값에 맞는 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-b-U03",
+        "criterion": "사용자 전제를 자료로 확인하고 필요하면 교정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S07-c",
+    "primary_family": "S07",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S07-c-U01",
+        "criterion": "질문 날짜의 TAVG·PRCP 값·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-c-U02",
+        "criterion": "변수와 임계값에 맞는 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-c-U03",
+        "criterion": "사용자 전제를 자료로 확인하고 필요하면 교정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S07-d",
+    "primary_family": "S07",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S07-d-U01",
+        "criterion": "질문 날짜의 TAVG·PRCP 값·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-d-U02",
+        "criterion": "변수와 임계값에 맞는 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S07-d-U03",
+        "criterion": "사용자 전제를 자료로 확인하고 필요하면 교정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S08-a",
+    "primary_family": "S08",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S08-a-U01",
+        "criterion": "지정한 기간·일강수량 평균·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S08-a-U02",
+        "criterion": "불필요한 정보 요구 없이 가능한 요청 수행",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S08-b",
+    "primary_family": "S08",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S08-b-U01",
+        "criterion": "첫 응답에서 변수의 미지정을 적절히 다룸",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S08-b-U02",
+        "criterion": "후속 명료화 후 일강수량 평균·단위·기간",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S08-c",
+    "primary_family": "S08",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S08-c-U01",
+        "criterion": "지정한 기간 평균 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S08-d",
+    "primary_family": "S08",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S08-d-U01",
+        "criterion": "첫 응답에서 기간의 미지정을 적절히 다룸",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S08-d-U02",
+        "criterion": "후속 지정 기간의 평균 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S09-a",
+    "primary_family": "S09",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S09-a-U01",
+        "criterion": "최종 임계값·강수 조건·기간의 선정 집합·개수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-a-U02",
+        "criterion": "선정일 평균 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S09-b",
+    "primary_family": "S09",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S09-b-U01",
+        "criterion": "첫 턴의 조건·결과",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-b-U02",
+        "criterion": "후속 기온 기준만 변경",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-b-U03",
+        "criterion": "기간·강수 조건·요구 출력 유지",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-b-U04",
+        "criterion": "최종 선정 집합·개수·평균",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S09-c",
+    "primary_family": "S09",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S09-c-U01",
+        "criterion": "지정한 후반 기간의 비 온 날 개수·평균 기온",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S09-d",
+    "primary_family": "S09",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S09-d-U01",
+        "criterion": "첫 턴의 기간·결과",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-d-U02",
+        "criterion": "후속 기간만 변경하고 강수 조건 유지",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S09-d-U03",
+        "criterion": "최종 날짜 수·평균 기온",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S10-a",
+    "primary_family": "S10",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S10-a-U01",
+        "criterion": "기간 평균 기온·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-a-U02",
+        "criterion": "기간 평균 일강수량·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S10-b",
+    "primary_family": "S10",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S10-b-U01",
+        "criterion": "계산 가능한 평균 기온 제시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-b-U02",
+        "criterion": "풍속 자료 부재·평균 불확정 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S10-c",
+    "primary_family": "S10",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S10-c-U01",
+        "criterion": "부산 자료가 없음을 식별",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-c-U02",
+        "criterion": "요청한 두 값을 서울 자료나 추정값으로 대체하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-c-U03",
+        "criterion": "제약과 필요한 자료를 간결히 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S10-d",
+    "primary_family": "S10",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S10-d-U01",
+        "criterion": "환경 관측표의 지원 범위 밖임을 인식",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-d-U02",
+        "criterion": "기상 도구로 교통시간을 계산하거나 실제 조회했다고 주장하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S10-d-U03",
+        "criterion": "도움이 되는 일반 안내 또는 확인 경로를 제공",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S11-a",
+    "primary_family": "S11",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S11-a-U01",
+        "criterion": "정상 조회의 실제 값·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S11-b",
+    "primary_family": "S11",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S11-b-U01",
+        "criterion": "노출된 일시 오류와 실제 관측값 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S11-b-U02",
+        "criterion": "예산 안에서 정상 반환을 얻고 값·단위 제시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S11-c",
+    "primary_family": "S11",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S11-c-U01",
+        "criterion": "실제 도구 전제조건을 충족한 뒤 조회",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S11-c-U02",
+        "criterion": "값·단위 제시; 오류 미노출 선제 선택은 복구와 구별",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S11-d",
+    "primary_family": "S11",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S11-d-U01",
+        "criterion": "지속 실행 불가를 자료 부재와 구분",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S11-d-U02",
+        "criterion": "없는 값을 생성하지 않고 예산 안에서 중단·제약 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S11-e",
+    "primary_family": "S11",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S11-e-U01",
+        "criterion": "조회 가능한 값·단위 제시",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S11-e-U02",
+        "criterion": "파일 저장 기능 부재를 알림",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S11-e-U03",
+        "criterion": "파일 생성·다운로드 링크를 허위로 제시하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S12-b",
+    "primary_family": "S12",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S12-b-U01",
+        "criterion": "관측 가능한 집단별 날짜 수·평균·차이",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S12-b-U02",
+        "criterion": "표만으로 인과적 기여율을 식별할 수 없음을 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S12-b-U03",
+        "criterion": "자료 밖 인과 확정 수치를 생성하지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S12-c",
+    "primary_family": "S12",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S12-c-U01",
+        "criterion": "관측 기간 누적 강수량·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S12-c-U02",
+        "criterion": "관측 일수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S12-d",
+    "primary_family": "S12",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S12-d-U01",
+        "criterion": "관측 누적 강수량·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S12-d-U02",
+        "criterion": "다음 달 예측 근거·모형이 제공되지 않았음을 설명",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S12-d-U03",
+        "criterion": "가정 없는 미래 확정 관측값·검증된 예측을 만들지 않음",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S13-a",
+    "primary_family": "S13",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S13-a-U01",
+        "criterion": "두 출처의 해당 날짜·변수 값을 실제 확인",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-a-U02",
+        "criterion": "출처별 값·충돌 여부·선택 근거",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-a-U03",
+        "criterion": "규칙에 맞는 값 확정 또는 미확정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-a-U04",
+        "criterion": "출처에 연결된 조건 충족 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S13-b",
+    "primary_family": "S13",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S13-b-U01",
+        "criterion": "두 출처의 해당 날짜·변수 값을 실제 확인",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-b-U02",
+        "criterion": "출처별 값·충돌 여부·선택 근거",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-b-U03",
+        "criterion": "규칙에 맞는 값 확정 또는 미확정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-b-U04",
+        "criterion": "출처에 연결된 조건 충족 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S13-c",
+    "primary_family": "S13",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S13-c-U01",
+        "criterion": "두 출처의 해당 날짜·변수 값을 실제 확인",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-c-U02",
+        "criterion": "출처별 값·충돌 여부·선택 근거",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-c-U03",
+        "criterion": "규칙에 맞는 값 확정 또는 미확정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S13-c-U04",
+        "criterion": "출처에 연결된 조건 충족 판정",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S14-a",
+    "primary_family": "S14",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S14-a-U01",
+        "criterion": "원자료의 날짜·강수량·품질 플래그 보존",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-a-U02",
+        "criterion": "중복·품질 처리 정책에 맞는 고유 유효 관측일 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-a-U03",
+        "criterion": "정확한 관측분 합계·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-a-U04",
+        "criterion": "전체 4일 합계 확정 여부와 처리 이유",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S14-b",
+    "primary_family": "S14",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S14-b-U01",
+        "criterion": "원자료의 날짜·강수량·품질 플래그 보존",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-b-U02",
+        "criterion": "중복·품질 처리 정책에 맞는 고유 유효 관측일 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-b-U03",
+        "criterion": "정확한 관측분 합계·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-b-U04",
+        "criterion": "전체 4일 합계 확정 여부와 처리 이유",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  },
+  {
+    "case_id": "S14-c",
+    "primary_family": "S14",
+    "tool_error_exposed": null,
+    "prerequisite_fulfilled": null,
+    "tool_recovered": null,
+    "actual_tool_events": [],
+    "whole_case": "not_run",
+    "units": [
+      {
+        "id": "S14-c-U01",
+        "criterion": "원자료의 날짜·강수량·품질 플래그 보존",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-c-U02",
+        "criterion": "중복·품질 처리 정책에 맞는 고유 유효 관측일 수",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-c-U03",
+        "criterion": "정확한 관측분 합계·단위",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      },
+      {
+        "id": "S14-c-U04",
+        "criterion": "전체 4일 합계 확정 여부와 처리 이유",
+        "result": "not_run",
+        "evidence": null,
+        "reviewer": null
+      }
+    ],
+    "unsupported_claims": [],
+    "reviewer": null
+  }
+]

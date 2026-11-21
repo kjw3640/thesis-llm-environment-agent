@@ -1,0 +1,306 @@
+{
+  "version": "four-model-execution-settings-2.0",
+  "date": "2026-11-05",
+  "status": "installed configurations and development transport verified; main experiment not run",
+  "scope": "fixed local model/quantization/template configurations under one standardized non-thinking greedy policy; not each model optimal performance",
+  "installed_app_version": "0.33.3",
+  "required_server_version": "0.33.3",
+  "live_server_version_verified": true,
+  "local_inventory_method": "live Ollama API plus local manifest/config digests",
+  "local_inventory": [
+    {
+      "name": "ministral-3:8b-instruct-2512-q4_K_M",
+      "model": "ministral-3:8b-instruct-2512-q4_K_M",
+      "size": 6022236616,
+      "digest": "1922accd5827ebe6829e536369195db25eaf664528dc66206d646ea3bb386b71",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "mistral3",
+        "families": [
+          "mistral3"
+        ],
+        "parameter_size": "8.9B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 4096
+      },
+      "capabilities": [
+        "vision",
+        "completion",
+        "tools"
+      ]
+    },
+    {
+      "name": "qwen3.5:9b-q4_K_M",
+      "model": "qwen3.5:9b-q4_K_M",
+      "size": 6550825550,
+      "digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 4096
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking",
+        "vision"
+      ]
+    },
+    {
+      "name": "qwen3.5:4b-q4_K_M",
+      "model": "qwen3.5:4b-q4_K_M",
+      "size": 3324173934,
+      "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "details": {
+        "parent_model": "model.gguf",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "4.2B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 262144,
+        "embedding_length": 2560
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking",
+        "vision"
+      ]
+    },
+    {
+      "name": "gemma4:e4b",
+      "model": "gemma4:e4b",
+      "size": 9608350718,
+      "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma4",
+        "families": [
+          "gemma4"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "M01",
+      "tag": "gemma4:e4b",
+      "display_name": "Gemma 4 E4B",
+      "family": "Gemma",
+      "quantization": "Q4_K_M",
+      "format": "GGUF",
+      "thinking_policy": "require_false_supported_then_send_false",
+      "local_present": true,
+      "expected_manifest_sha256": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+      "reference": "existing local manifest; same digest as V1; do not pull or overwrite",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4",
+      "reported_parameter_size": "8.0B",
+      "requires": "0.20.0",
+      "renderer": "gemma4",
+      "parser": "gemma4"
+    },
+    {
+      "id": "M02",
+      "tag": "qwen3.5:4b-q4_K_M",
+      "display_name": "Qwen3.5-4B",
+      "family": "Qwen3.5",
+      "quantization": "Q4_K_M",
+      "format": "GGUF",
+      "thinking_policy": "require_false_supported_then_send_false",
+      "local_present": true,
+      "expected_manifest_sha256": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+      "observed_registry_prefix": "d8b0f5e9760c",
+      "url": "https://ollama.com/library/qwen3.5:4b-q4_K_M",
+      "reported_parameter_size": "4.2B",
+      "requires": "0.30.0",
+      "renderer": "qwen3.5",
+      "parser": "qwen3.5"
+    },
+    {
+      "id": "M03",
+      "tag": "qwen3.5:9b-q4_K_M",
+      "display_name": "Qwen3.5-9B",
+      "family": "Qwen3.5",
+      "quantization": "Q4_K_M",
+      "format": "GGUF",
+      "thinking_policy": "require_false_supported_then_send_false",
+      "local_present": true,
+      "expected_manifest_sha256": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+      "observed_registry_prefix": "56671c2ab938",
+      "url": "https://ollama.com/library/qwen3.5:9b-q4_K_M",
+      "reported_parameter_size": "9.0B",
+      "requires": "0.30.0",
+      "renderer": "qwen3.5",
+      "parser": "qwen3.5"
+    },
+    {
+      "id": "M04",
+      "tag": "ministral-3:8b-instruct-2512-q4_K_M",
+      "display_name": "Ministral 3 8B Instruct 2512",
+      "family": "Ministral3",
+      "quantization": "Q4_K_M",
+      "format": "GGUF",
+      "thinking_policy": "verify_non_reasoning_instruct_variant_then_omit_think",
+      "local_present": true,
+      "expected_manifest_sha256": "1922accd5827ebe6829e536369195db25eaf664528dc66206d646ea3bb386b71",
+      "observed_registry_prefix": "1922accd5827",
+      "url": "https://ollama.com/library/ministral-3:8b-instruct-2512-q4_K_M",
+      "reported_parameter_size": "8.9B",
+      "requires": null,
+      "renderer": null,
+      "parser": "ministral"
+    }
+  ],
+  "common_options": {
+    "temperature": 0,
+    "seed": 42,
+    "top_k": 1,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "repeat_last_n": 0,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "num_ctx": 16384,
+    "num_predict": 2048,
+    "draft_num_predict": 0
+  },
+  "request_fields": {
+    "stream": false,
+    "keep_alive": "5m",
+    "format": "omit; natural-language final responses",
+    "stop": "omit; preserve native model stop behavior",
+    "truncate": false,
+    "shift": false
+  },
+  "thinking_semantics": "no reasoning output requested; use false only when supported; non-reasoning instruct model may omit flag; unsupported mode stops preflight",
+  "repetitions": 1,
+  "generation_seed": 42,
+  "case_order_seed": 20261105,
+  "case_order": [
+    "S12-c",
+    "S10-c",
+    "S09-a",
+    "S08-d",
+    "S02-a",
+    "S13-a",
+    "S07-b",
+    "S10-a",
+    "S04-d",
+    "S02-d",
+    "S13-c",
+    "S05-b",
+    "S10-b",
+    "S09-c",
+    "S01-a",
+    "S04-b",
+    "S14-c",
+    "S06-d",
+    "S01-d",
+    "S04-a",
+    "S09-b",
+    "S07-a",
+    "S07-c",
+    "S02-b",
+    "S05-d",
+    "S08-b",
+    "S01-c",
+    "S12-d",
+    "S05-a",
+    "S09-d",
+    "S11-d",
+    "S06-c",
+    "S05-c",
+    "S11-c",
+    "S01-b",
+    "S12-b",
+    "S03-d",
+    "S06-b",
+    "S13-b",
+    "S08-c",
+    "S14-a",
+    "S06-a",
+    "S08-a",
+    "S03-c",
+    "S11-b",
+    "S11-a",
+    "S07-d",
+    "S02-c",
+    "S10-d",
+    "S03-b",
+    "S11-e",
+    "S14-b",
+    "S03-a"
+  ],
+  "model_order": [
+    "M01",
+    "M02",
+    "M03",
+    "M04"
+  ],
+  "fresh_conversation_per_case": true,
+  "carry_history_only_within_scripted_followup": true,
+  "parallel_models": 1,
+  "max_llm_requests_per_case": 12,
+  "max_tool_calls_per_case": 16,
+  "request_timeout_seconds": 180,
+  "case_timeout_seconds": 600,
+  "timeouts_are": "resource/termination outcomes logged separately; no silent removal or automatic inference retry",
+  "context_guard": {
+    "num_ctx": 16384,
+    "max_output_tokens_per_request": 2048,
+    "input_token_limit_including_template_and_tools": 12288,
+    "remaining_context_margin": 2048,
+    "exact_token_count_verified": true,
+    "on_overflow": "stop and log context_limit; never silently drop question, metadata, tool evidence or first dialogue turn",
+    "if_development_requires_more": "revise profile before main runs; apply revised common budget to all four models",
+    "method": "Ollama 0.33.3 render-only request with native tools/template; verified loaded runner /tokenize with required native BOS exactly once; corrected counting rechecked against every saved development response including the initial mismatch",
+    "implementation_status": "version-pinned private hooks; unavailable or mismatch stops execution, without fallback",
+    "verification_scope": "text-only requests under the pinned runtime and four installed artifacts; not a guarantee for another runtime or multimodal input"
+  },
+  "preflight_required": [
+    "live server version equals pinned version",
+    "exact full manifest digests and format/quantization for all four installed models",
+    "model REQUIRES and renderer/parser supported by pinned runtime",
+    "system/tool roles and tool-call round trip on separate development input",
+    "non-thinking mode actually honored; no hidden default fallback",
+    "Korean instruction and unit handling on separate development input",
+    "token accounting including native template and tool schemas within common context budget",
+    "time/memory viability on local machine; if limits revised, freeze new common profile before main runs"
+  ],
+  "main_execution_ready": false,
+  "inference_calls": 36,
+  "downloads": 3,
+  "upgrades": 0,
+  "provenance_urls": [
+    "https://docs.ollama.com/modelfile",
+    "https://docs.ollama.com/capabilities/thinking",
+    "https://docs.ollama.com/api/chat"
+  ],
+  "supersedes": "execution_settings.json (preserved pre-installation snapshot)",
+  "technical_preflight_passed": true,
+  "main_execution_ready_reason": "212-case runner and model-specific grading records need their final dry run; this stage is installation and development only",
+  "main_case_runs": 0,
+  "development_results": "preflight_v1/summary.json",
+  "preflight_behavioral_correctness_is_not_an_inclusion_gate": true
+}

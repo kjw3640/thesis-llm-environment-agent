@@ -1,0 +1,2649 @@
+{
+  "P01": {
+    "packet_id": "P01",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-06-29",
+          "2024-07-11"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": null,
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-06-29",
+            "temperature": 26.8,
+            "precipitation": 70.4,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-06-30",
+            "temperature": 23.1,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-01",
+            "temperature": 26.8,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-02",
+            "temperature": 23.1,
+            "precipitation": 65.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-03",
+            "temperature": 24.6,
+            "precipitation": 0.8,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-04",
+            "temperature": 26.2,
+            "precipitation": 7.6,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-06",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-05",
+            "temperature": 23.6,
+            "precipitation": 2.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-07",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-06",
+            "temperature": 25.1,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-08",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-07",
+            "temperature": 25.0,
+            "precipitation": 38.1,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-09",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-08",
+            "temperature": 23.6,
+            "precipitation": 11.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-10",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-09",
+            "temperature": 24.6,
+            "precipitation": 1.8,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-11",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-10",
+            "temperature": 26.9,
+            "precipitation": 1.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-12",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-11",
+            "temperature": 25.2,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-13",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P02": {
+    "packet_id": "P02",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-13",
+          "2024-08-27"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": null,
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-13",
+            "temperature": 31.4,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-14",
+            "temperature": 29.6,
+            "precipitation": 3.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-15",
+            "temperature": 29.2,
+            "precipitation": 6.1,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-16",
+            "temperature": 30.3,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-17",
+            "temperature": 29.4,
+            "precipitation": 10.9,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-06",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-07",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-08",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-09",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 28.1,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-10",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-23",
+            "temperature": 28.2,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-11",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-24",
+            "temperature": 27.6,
+            "precipitation": 2.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-12",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-25",
+            "temperature": 28.7,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-13",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-26",
+            "temperature": 27.8,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-14",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-27",
+            "temperature": 25.9,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-15",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P03": {
+    "packet_id": "P03",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-06-29",
+          "2024-07-11"
+        ],
+        [
+          "2024-08-13",
+          "2024-08-27"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": null,
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-06-29",
+            "temperature": 26.8,
+            "precipitation": 70.4,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-06-30",
+            "temperature": 23.1,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-01",
+            "temperature": 26.8,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-02",
+            "temperature": 23.1,
+            "precipitation": 65.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-03",
+            "temperature": 24.6,
+            "precipitation": 0.8,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-04",
+            "temperature": 26.2,
+            "precipitation": 7.6,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-06",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-05",
+            "temperature": 23.6,
+            "precipitation": 2.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-07",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-06",
+            "temperature": 25.1,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-08",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-07",
+            "temperature": 25.0,
+            "precipitation": 38.1,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-09",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-08",
+            "temperature": 23.6,
+            "precipitation": 11.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-10",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-09",
+            "temperature": 24.6,
+            "precipitation": 1.8,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-11",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-10",
+            "temperature": 26.9,
+            "precipitation": 1.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-12",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-07-11",
+            "temperature": 25.2,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-13",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-13",
+            "temperature": 31.4,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-14",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-14",
+            "temperature": 29.6,
+            "precipitation": 3.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-15",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-15",
+            "temperature": 29.2,
+            "precipitation": 6.1,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-16",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-16",
+            "temperature": 30.3,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-17",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-17",
+            "temperature": 29.4,
+            "precipitation": 10.9,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-18",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-19",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-20",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-21",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-22",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 28.1,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-23",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-23",
+            "temperature": 28.2,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-24",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-24",
+            "temperature": 27.6,
+            "precipitation": 2.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-25",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-25",
+            "temperature": 28.7,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-26",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-26",
+            "temperature": 27.8,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-27",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-27",
+            "temperature": 25.9,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-28",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P04": {
+    "packet_id": "P04",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-13",
+          "2024-08-27"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-13",
+            "temperature": 31.4,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-14",
+            "temperature": 29.6,
+            "precipitation": 3.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-15",
+            "temperature": 29.2,
+            "precipitation": 6.1,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-16",
+            "temperature": 30.3,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-17",
+            "temperature": 29.4,
+            "precipitation": 10.9,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-06",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-07",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": null,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-08",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-09",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 28.1,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-10",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-23",
+            "temperature": 28.2,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-11",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-24",
+            "temperature": 27.6,
+            "precipitation": 2.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-12",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-25",
+            "temperature": 28.7,
+            "precipitation": 0.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-13",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-26",
+            "temperature": 27.8,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-14",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-27",
+            "temperature": 25.9,
+            "precipitation": 0.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-15",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P05": {
+    "packet_id": "P05",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-13",
+          "2024-08-27"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "0.1 degC",
+          "canonical_multiplier": 0.1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "0.1 mm",
+          "canonical_multiplier": 0.1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": null,
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-13",
+            "temperature": 314,
+            "precipitation": 0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-14",
+            "temperature": 296,
+            "precipitation": 33,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-15",
+            "temperature": 292,
+            "precipitation": 61,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-16",
+            "temperature": 303,
+            "precipitation": 0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-17",
+            "temperature": 294,
+            "precipitation": 109,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-18",
+            "temperature": 295,
+            "precipitation": 0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-06",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 298,
+            "precipitation": 23,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-07",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 314,
+            "precipitation": 267,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-08",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 287,
+            "precipitation": 155,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-09",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-22",
+            "temperature": 281,
+            "precipitation": 5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-10",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-23",
+            "temperature": 282,
+            "precipitation": 0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-11",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-24",
+            "temperature": 276,
+            "precipitation": 20,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-12",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-25",
+            "temperature": 287,
+            "precipitation": 5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-13",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-26",
+            "temperature": 278,
+            "precipitation": 0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-14",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-27",
+            "temperature": 259,
+            "precipitation": 3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-15",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P06": {
+    "packet_id": "P06",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-20",
+          "2024-08-20"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A",
+        "OBS-B"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      },
+      {
+        "source_id": "OBS-B",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-B-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P07": {
+    "packet_id": "P07",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-20",
+          "2024-08-20"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A",
+        "OBS-B"
+      ],
+      "preferred_source_id": "OBS-A",
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      },
+      {
+        "source_id": "OBS-B",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-B-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P08": {
+    "packet_id": "P08",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-20",
+          "2024-08-20"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A",
+        "OBS-B"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      },
+      {
+        "source_id": "OBS-B",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-B-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P09": {
+    "packet_id": "P09",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-18",
+          "2024-08-21"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": null,
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P10": {
+    "packet_id": "P10",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-18",
+          "2024-08-21"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-05",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "P11": {
+    "packet_id": "P11",
+    "metadata": {
+      "station": "KSM00047108",
+      "station_name": "SEOUL CITY",
+      "coverage_windows": [
+        [
+          "2024-08-18",
+          "2024-08-21"
+        ]
+      ],
+      "variables": {
+        "temperature": {
+          "element": "TAVG",
+          "meaning": "일평균 기온",
+          "stored_unit": "degC",
+          "canonical_multiplier": 1
+        },
+        "precipitation": {
+          "element": "PRCP",
+          "meaning": "일강수량",
+          "stored_unit": "mm",
+          "canonical_multiplier": 1
+        }
+      },
+      "available_stations": [
+        "KSM00047108"
+      ],
+      "resolution": "daily element-day labels",
+      "date_note": "NOAA 일자 표기를 유지한다. 현지 자정 기준의 동일 시간 창이라고 가정하지 않는다.",
+      "source_ids": [
+        "OBS-A"
+      ],
+      "preferred_source_id": null,
+      "controlled_copy_notice": "통제된 분석용 사본이다. 값·플래그·중복·출처의 실험 조작은 실제 NOAA의 수정·품질 판정을 뜻하지 않는다.",
+      "analysis_policy": {
+        "null": "미제공이며 0이 아니다. 임의 보간하지 않는다.",
+        "observation_key": [
+          "station",
+          "date",
+          "element"
+        ],
+        "duplicates": "같은 출처 안의 동일 관측 키·값·플래그 중복은 집계에서 한 번만 사용한다. 원자료 조회는 보존한다.",
+        "quality": "원자료 조회는 값·품질 플래그를 보존한다. 집계는 비어 있지 않은 QFLAG 또는 MFLAG=P인 값을 제외하고 제외 날짜·유효 고유 관측 수를 밝힌다.",
+        "coverage": "요청한 날짜와 제공한 날짜를 구별한다. 관측분 합계를 전체 합계로 표시하지 않는다.",
+        "source_priority": "우선 출처가 명시되면 그 분석 규칙을 따른다. 없으면 충돌을 공개하고 하나의 값으로 확정하지 않는다."
+      }
+    },
+    "sources": [
+      {
+        "source_id": "OBS-A",
+        "label": "분석용 관측자료 사본",
+        "rows": [
+          {
+            "date": "2024-08-18",
+            "temperature": 29.5,
+            "precipitation": 0.0,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-01",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-19",
+            "temperature": 29.8,
+            "precipitation": 2.3,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-02",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-20",
+            "temperature": 31.4,
+            "precipitation": 26.7,
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": "O"
+            },
+            "station": "KSM00047108",
+            "record_id": "OBS-A-03",
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          },
+          {
+            "date": "2024-08-21",
+            "temperature": 28.7,
+            "precipitation": 15.5,
+            "station": "KSM00047108",
+            "record_id": "OBS-A-04",
+            "quality_flags": {
+              "temperature": "",
+              "precipitation": ""
+            },
+            "measurement_flags": {
+              "temperature": "H",
+              "precipitation": ""
+            },
+            "upstream_source_flags": {
+              "temperature": "S",
+              "precipitation": "S"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
